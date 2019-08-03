@@ -13,7 +13,7 @@
     "apollo",
     "mongo"
   ],
-  "author": "Maui Saavedra",
+  "author": "jesusfranck09",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^3.0.6",

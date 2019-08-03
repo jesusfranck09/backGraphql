@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
     },
     gender: {
         type: String,
-        enum: ['M', 'F', 'OTHER'],
+        enum: ['M', 'F', 'OTHER'],   
     },
     email: {
         type: String,
@@ -31,7 +31,7 @@ const UserSchema = new mongoose.Schema({
     is_active: {
         type: Boolean,
         default: true,
-    },
+    },    
 });
 
 UserSchema.pre('save', function(next) {
