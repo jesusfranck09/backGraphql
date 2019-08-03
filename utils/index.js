@@ -42,5 +42,7 @@ const storeUpload = (stream) => {
 module.exports = {
     createToken,
     authUserById,
+    
     storeUpload,
+
 }
